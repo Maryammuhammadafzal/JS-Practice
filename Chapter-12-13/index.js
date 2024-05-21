@@ -63,24 +63,43 @@
 //     return false;
 // }
 
+//Questio 05
+// Password prompt
 
-//Question 05 
+// var Password = 123456;
+// var userPassword = +prompt('Enter a password')
+
+// if (userPassword === Password){
+//     alert('Correct!');
+// }
+// else if(userPassword == ' '){
+//     alert(userPassword = +prompt('Please! Enter a password.') && 'Correct!')
+    
+// }
+// else{
+//     alert('Incorrect Password!'  &&  ( userPassword = +prompt('Please! Enter valid a password.')  && 'Correct!' ) );
+// }
+
+//Question 06
 // greeting according to an hour
 
-var greeting;
-var time = 15;
+// var greeting;
+// var time = 15;
 
-if (time < 18 ){
-    greeting = ' Good Day! '
+// if (time < 18 ){
+//     greeting = ' Good Day! '
    
-}
-else{
-    greeting = ' Good Evening! '
+// }
+// else{
+//     greeting = ' Good Evening! '
     
-}
+// }
 
-var hour = +prompt('write a hour in 24 hour format:' , 'from 0-24');
-var minutes = +prompt('Writa minutes from 0-59')
-if (hour >= 0 && hour <= 24  ){
-    alert ('The time in 12-hour clock format is: ' )
-}
+// Question 07 
+// user Time prompt
+
+// var hour = +prompt('write a hour in 24 hour format:' , 'from 0-24');
+// var minutes = +prompt('Writa minutes from 0-59')
+// if (hour >= 0 && hour <= 24  ){
+//     alert ('The time in 12-hour clock format is: ' )
+// }
