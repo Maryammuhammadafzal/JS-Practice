@@ -116,27 +116,57 @@
 //Question 07
 // Search Item from array
 
-var bakeryItem = ['cake' , 'applepie' , 'cookies' , 'chips' , 'patties'];
+// var bakeryItem = ['cake' , 'applepie' , 'cookies' , 'chips' , 'patties'];
 
-var userItem = prompt('welcome to "Disco Bakery" What do you want to order Sir/Mam?');
-for(var i = 0; i <=bakeryItem.length ; i++){
-    if(bakeryItem[i] === userItem){
-        document.write(userItem + ' is ' + '<b> available </b>' + ' at the index ' + i + ' in our backery ');   
-    }
-    else if (bakeryItem !== userItem){
-        document.write('We are Sorry ' + userItem + ' is ' + ' <b> not available </b> ' + ' in our backery');
-        break;
-    }
-}
+// var userItem = prompt('welcome to "Disco Bakery" What do you want to order Sir/Mam?');
+// for(var i = 0; i <=bakeryItem.length ; i++){
+//     if(bakeryItem[i] === userItem){
+//         document.write(userItem + ' is ' + '<b> available </b>' + ' at the index ' + i + ' in our backery ');   
+//     }
+//     else if (bakeryItem !== userItem){
+//         document.write('We are Sorry ' + userItem + ' is ' + ' <b> not available </b> ' + ' in our backery');
+//         break;
+//     }
+// }
 
 
 // Question 8
 // largest number
 
-var number = [87 , 98 ,67 , 43 , 52 ];
+var num = [24, 53, 78, 91, 12];
 
-for(var i = 0; i <= number.; i++){
-    if()
+var maxNum = num[0]; 
+for (var i = 1; i < num.length; i++) {
+    if (num[i] > maxNum) {
+        maxNum = num[i];
+    }
+}
+
+
+document.write("The largest number in the array is:", maxNum);
+
+//Question 9
+//Smallest Number
+
+var numb = [24, 53, 78, 91, 12];
+
+var minNum = numb[0]; 
+for (var i = 1; i > numb.length; i--) {
+    if (numb[i] < minNum) {
+        minNum = numb[i];
+    }
+}
+
+
+document.write('<br>' + "The smallest number in the array is:", minNum + ' <br>');
+
+
+//Question 10
+// ranging of 5
+document.write('Ranging : ')
+for(var i = 1; i < 21; i++){
+    document.write(i*5 + ' ');
+    
 }
 // //////////////////
 // var display = ['england' , 'pakistan' , 'india'] ;
