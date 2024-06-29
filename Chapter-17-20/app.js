@@ -133,41 +133,43 @@
 // Question 8
 // largest number
 
-var num = [24, 53, 78, 91, 12];
+// var num = [24, 53, 78, 91, 12];
 
-var maxNum = num[0]; 
-for (var i = 1; i < num.length; i++) {
-    if (num[i] > maxNum) {
-        maxNum = num[i];
-    }
-}
+// var maxNum = num[0]; 
+// for (var i = 1; i < num.length; i++) {
+//     if (num[i] > maxNum) {
+//         maxNum = num[i];
+//     }
+// }
 
 
-document.write("The largest number in the array is:", maxNum);
+// document.write("The largest number in the array is:", maxNum);
 
 //Question 9
 //Smallest Number
 
-var numb = [24, 53, 78, 91, 12];
+// var numb = [24, 53, 78, 91, 12];
 
-var minNum = numb[0]; 
-for (var i = 1; i > numb.length; i--) {
-    if (numb[i] < minNum) {
-        minNum = numb[i];
-    }
-}
+// var minNum = numb[0]; 
+// for (var i = 1; i > numb.length; i--) {
+//     if (numb[i] < minNum) {
+//         minNum = numb[i];
+//     }
+// }
 
 
-document.write('<br>' + "The smallest number in the array is:", minNum + ' <br>');
+// document.write('<br>' + "The smallest number in the array is:", minNum + ' <br>');
 
 
 //Question 10
 // ranging of 5
-document.write('Ranging : ')
-for(var i = 1; i < 21; i++){
-    document.write(i*5 + ' ');
+
+// document.write('Ranging : ')
+// for(var i = 1; i < 21; i++){
+//     document.write(i*5 + ' ');
     
-}
+// }
+
 // //////////////////
 // var display = ['england' , 'pakistan' , 'india'] ;
 // var country = prompt('What is your country name?');
