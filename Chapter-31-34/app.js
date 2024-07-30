@@ -82,16 +82,28 @@
 //Question # 09
 //Count Ramazan days
 
-var todayDate = new Date();
-var RamazanDate = new Date('June 18 2015');
-var getDayofRamazan = RamazanDate.getTime();
-console.log(getDayofRamazan)
-var getDayoftoday = todayDate.getT();
-console.log(getDayoftoday)
+// var todayDate = new Date();
+// var RamazanDate = new Date('June 18 2015');
+// var getDayofRamazan = RamazanDate.getTime();
+// console.log(getDayofRamazan)
+// var getDayoftoday = todayDate.getT();
+// console.log(getDayoftoday)
 // var days = getDayoftoday - getDayofRamazan / (1000 * 60 * 60 * 24 * 12 * 31 ) ;
 // console.log( days + ' days have passed since 1st Ramazan ,2015');
 
 
 // Question # 10
 
-console.log( (1000 * 60 * 60 * 24 * 12 * 31 *7 ) )
+// console.log( (1000 * 60 * 60 * 24 * 12 * 31 *7 ) )
+
+
+//Question 11
+
+var today = new Date();
+var hour = today.getHours();
+var sub = 
+console.log(hour);
+// console.log(today);
+// var mydate = new Date('11:49:59');
+// var myhours = Number(mydate.getHours());
+// console.log(mydate)
