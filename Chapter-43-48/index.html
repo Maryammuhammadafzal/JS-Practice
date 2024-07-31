@@ -27,25 +27,49 @@
             <td>1</td>
             <td>jhon</td>
             <td>10</td>
-            <td><button onclick="">Delete</button></td>
+            <td><button onclick="remove(this)">Delete</button></td>
         </tr>
         <tr>
             <td>1</td>
             <td>Doe</td>
             <td>7</td>
-            <td><button onclick="">Delete</button></td>
+            <td><button onclick="remove(this)">Delete</button></td>
         </tr>
         <tr>
             <td>1</td>
             <td>Mark</td>
             <td>8</td>
-            <td><button onclick="">Delete</button></td>
+            <td><button onclick="remove(this)">Delete</button></td>
         </tr>
         <tr>
             <td>1</td>
             <td>mary</td>
             <td>10</td>
-            <td><button onclick="">Delete</button></td>
+            <td><button onclick="remove(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>jhon</td>
+            <td>10</td>
+            <td><button onclick="remove(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>jhon</td>
+            <td>10</td>
+            <td><button onclick="remove(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>jhon</td>
+            <td>10</td>
+            <td><button onclick="remove(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>jhon</td>
+            <td>10</td>
+            <td><button onclick="remove(this)">Delete</button></td>
         </tr>
     </table>
 
@@ -53,8 +77,9 @@
     <img src="./images/mouse-out-image.webp" alt="lady-image" onmouseover="src = './images/mouse-over-image.webp'" onmouseout="src='./images/mouse-out-image.webp'">
 
     <!--Question 05-->
-    <input type="number"  placeholder="0" >
-    <button onclick="co">Increase</button> <button>Decrease</button>
+    <p id="counter">0</p>
+    <button onclick="increase()">Increase</button> 
+    <button onclick="decrease()">Decrease</button>
     <script src="app.js"></script>
 </body>
 </html>
