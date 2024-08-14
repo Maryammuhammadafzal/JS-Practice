@@ -10,4 +10,3 @@ function bulbon(){
 function bulboff(){
     bulbOf.src = "image/bulb-off-image.jpg"
 }
-
